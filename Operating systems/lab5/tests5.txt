@@ -1,0 +1,26 @@
+собираем 1 часть: g++ -fPIC -c library1.cpp -o l1.o
+g++ -shared l1.o -o libd1.so
+export LD_LiBRARY_PATH=/home/elizaveta/laba5/
+sudo ldconfig
+g++ main1.cpp -L/home/elizaveta/laba5/ -ld1 -o a
+./a
+Please enter the flag:
+1
+Please enter your dates:
+0 3.1415 0.01
+какой-то тут результат
+2
+Please enter your dates:
+0 0.01
+опять результат
+выходим CTRL+C
+собираем 2 часть: g++ -fPIC -c library2.cpp -o l2.o
+g++ -shared l2.o -o libd2.so
+g++ main2.cpp -ldl -o c
+./c
+1
+1
+0 3.1415 0.01
+2
+0 0.01
+

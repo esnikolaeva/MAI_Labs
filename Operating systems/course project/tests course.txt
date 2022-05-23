@@ -1,0 +1,36 @@
+./serever
+Enter all user's logins. insert 'end' to stop:
+esnikolaeva
+makapalin
+srguseva
+nedobysh
+ysmitich
+end
+
+end вроде как не работает, поэтому выходим Ctrl+C
+
+./client
+Hellow. insert logins.
+If you stop the enter logins you can enter 'end'
+Input: [login] [message]. for example like : one
+hey, how are you?
+Insert your login: esnikolaeva
+Congrats! You have signed. Now you can send messages!
+esnikolaeva> srguseva privet ))
+esnikolaeva> end
+esnikolaeva> c
+esnikolaeva> 
+
+опять выходим
+тестируем неверный логин
+
+elizaveta@elizaveta-VirtualBox:~/course$ ./client
+Hellow. insert logins.
+If you stop the enter logins you can enter 'end'
+Input: [login] [message]. for example like : one
+hey, how are you?
+Insert your login: srgusva
+Wrong login!
+Insert your login: srguseva
+Congrats! You have signed. Now you can send messages!
+srguseva>

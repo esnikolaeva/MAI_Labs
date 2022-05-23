@@ -1,0 +1,18 @@
+собираем: g++ -fsanitize-address count.cpp -lzmq -o count -w
+g++ -fsanitize=address control.cpp -lzmq -o control -w
+./control
+create 89 -1
+create 90 -1
+create 100 90
+create 200 89
+heartbeat 1000
+exec 200 time
+exec 200 start
+exec 100 start
+exec 200 stop
+exec 100 stop
+exec 100 time
+exec 200 time
+remove 100
+exec 100 time
+heartbeat 1000

@@ -1,0 +1,24 @@
+сборка: g++ -std=c++11 main.cpp -lpthread -o laba3
+запускаем: ./laba3
+
+тестируем: please, enter the number of polynominals
+2
+please, insert number of threads. Insert -1 if there are no restrictions:
+3
+please,enter degree of first polynominal
+4
+please, enter degree of next polynomial
+4
+please, enter coefficients of first polynominal, starting with the oldest
+2
+3
+4
+5
+1
+please, enter coefficients of 2 polynominal, starting with the oldest
+2 3 4 5
+  2x^3+3x^2+4x^1+5
+*
+  2x^3+3x^2+4x^1+5
+_________________________________________________________
+4x^6+12x^5+25x^4+44x^3+46x^2+40x^1+25

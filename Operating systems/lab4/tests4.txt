@@ -1,4 +1,3 @@
-сборка: g++ laba4.cpp -o laba4 -lrt -pthread
 тестируем: cat > test.txt
 adfscg
 sajdjadmkerfvv

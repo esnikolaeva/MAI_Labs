@@ -1,0 +1,16 @@
+сборка: g++ -Wall -o laba2 laba2.cpp
+
+Enter names for first and second childs
+p1
+p2
+PARENT: Please, enter number of string
+23
+PARENT: Please, enter your string 23 again
+23
+After work in child 1 your string look as: 32
+
+Plese, enter number of string -- количество строк, обязательно число (если ввести букву всё упадет :)).
+Далее вводим любые буквенные символы и строки произвольной длины, всё работает.
+Имена процессов любые допустимы.
+
+Выйти из программы Ctrl+C
